@@ -1,0 +1,3 @@
+var googleMock = {"destination_addresses":["639, 1st Main Road, Thimakka Layout, Chola Nagar, Cholanayakanahalli, Hebbal, Bengaluru, Karnataka 560032, India"],"origin_addresses":["10th Main Rd, Koramangala 3 Block, Koramangala, Bengaluru, Karnataka 560034, India"],"rows":[{"elements":[{"distance":{"text":"10.8 mi","value":17350},"duration":{"text":"51 mins","value":3045},"status":"OK"}]}],"status":"OK"}
+
+module.exports = googleMock; 

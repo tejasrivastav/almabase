@@ -1,0 +1,30 @@
+<div class="background">
+    <div class="layer">
+        <div layout="row" layout-align="space-around center" class="w100">
+            <div>
+                <form layout="column" class="form">
+                    <md-input-container>
+                        <label>Source</label>
+                        <input data-ng-model="info.source" required/>
+                    </md-input-container>
+                    <md-input-container>
+                        <label>Destination</label>
+                        <input data-ng-model="info.destination" required/>
+                    </md-input-container>
+                    <md-input-container>
+                        <label>Time:</label>
+                        <input mdc-datetime-picker="" date="true" time="true" type="text" id="datetime" placeholder="Date" min-date="date" ng-model="info.time" class=" md-input" required />
+                    </md-input-container>
+                    <md-input-container>
+                        <label>Email</label>
+                        <input data-ng-model="info.email" type="email" required/>
+                    </md-input-container>
+                    <md-button class="md-raised md-primary" ng-click="setRemainder()">Remind Me</md-button>
+                </form>
+            </div>
+            <div>
+                <api-log></api-log>
+            </div>
+        </div>
+    </div>
+</div>

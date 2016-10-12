@@ -1,0 +1,65 @@
+.w100 {
+    height: 100%;
+}
+
+.background {
+    background: url("/public/img/backdrop.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.54);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.form {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 3em 5em;
+}
+
+.md-input-container.md-default-theme .md-input,
+md-input-container .md-input,
+.md-input-container.md-default-theme label, md-input-container label,
+md-input-container.md-default-theme .md-placeholder,
+md-input-container:not(.md-input-has-value) input:not(:focus),
+md-input-container .md-placeholder,
+md-input-container.md-default-theme .md-input, md-input-container .md-input,
+.md-icon.md-default-theme, md-icon {
+    color: #FFEB3B ;
+    border-color: #FFEB3B ;
+}
+
+.md-default-theme .md-datepicker-triangle-button .md-datepicker-expand-triangle, .md-datepicker-triangle-button .md-datepicker-expand-triangle {
+    color: #FFEB3B !important;
+}
+
+.md-default-theme .md-datepicker-triangle-button .md-datepicker-expand-triangle, .md-datepicker-triangle-button .md-datepicker-expand-triangle {
+    border-top-color: #FFEB3B;
+}
+
+md-input-container.md-default-theme:not(.md-input-invalid).md-input-has-value label, md-input-container:not(.md-input-invalid).md-input-has-value label,
+md-input-container .md-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #FFEB3B;
+}
+
+md-input-container:not(.md-input-focused):not(.md-input-invalid) label.md-required:after {
+    color: rgb(221,44,0);
+}
+
+.socket-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 3em 5em;
+    color: #FFEB3B;
+    height: 60%;
+    overflow: auto;
+}
+
+.socket-time {
+    color: #03A9F4;
+}
